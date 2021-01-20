@@ -18,7 +18,7 @@
     </q-item>
     <q-virtual-scroll
       :items="rowCountArray"
-      style="height: 700px;"
+      scroll-target="body"
     >
       <template v-slot="{ item }">
         <q-item>
