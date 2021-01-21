@@ -15,13 +15,11 @@
   "devDependencies": {
     "cordova-android": "^9.0.0",
     "cordova-ios": "^6.1.1",
-    "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-whitelist": {}
     },
     "platforms": [
       "ios",
